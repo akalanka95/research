@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cis.com/technology-ontology#"
+     xml:base="http://cis.com/technology-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://cis.com/technology-ontology">
+        <owl:versionIRI rdf:resource="http://cis.com/technology-ontology/1.00"/>
+        <rdfs:comment>A knowledge base that describe how the technological concepts are interelated to each other based on their properties and characteristics.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cis.com/technology-ontology#AWT -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#AWT">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Bottle -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Bottle">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#CherryPy -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#CherryPy">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Concurrency_Patterns -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Concurrency_Patterns">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#concurrency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Cucumber -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Cucumber">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#e2etesting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Dependancy_Injection -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Dependancy_Injection">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#springcore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Django -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Django">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Falcon -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Falcon">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#File_IO -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#File_IO">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#io"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Flask -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Flask">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#IOC -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#IOC">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#springcore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#IT_Technology -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#IT_Technology"/>
+    
+
+
+    <!-- http://cis.com/technology-ontology#JAX-RS -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#JAX-RS">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#rest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#JAX-WS -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#JAX-WS">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#soap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#JPA -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#JPA">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#datapersistence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Java_FX -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Java_FX">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Junit -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Junit">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#unittesting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#List -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#List">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#collections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Map -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Map">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#collections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Mockito -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Mockito">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#unittesting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Networking_IO -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Networking_IO">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#io"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Selenium -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Selenium">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#e2etesting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Set -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Set">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#collections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Socket_Programming -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Socket_Programming">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#io"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#SortedMap -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#SortedMap">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#collections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Spring_Data -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Spring_Data">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#datapersistence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Swing -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Swing">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Thread_Pool -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Thread_Pool">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#concurrency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Threads -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Threads">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#concurrency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#Tornado -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#Tornado">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#api -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#api">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#bigdata -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#bigdata">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#cloudcomputing -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#cloudcomputing">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#collections -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#collections">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#jdk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#concurrency -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#concurrency">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#jdk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#database -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#database">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#datapersistence -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#datapersistence">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#spring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#datetimeapi -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#datetimeapi">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#desktop -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#desktop">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#devops -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#devops">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#e2etesting -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#e2etesting">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#testing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#eclipse -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#eclipse">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#ide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#framework -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#framework">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#frontend -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#frontend">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#functionalprogramming -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#functionalprogramming">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#gradle -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#gradle">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#hibernate -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#hibernate">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#ide -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#ide">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#integrationtesting -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#integrationtesting">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#testing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#intellij -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#intellij">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#ide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#io -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#io">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#jdk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#java -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#java">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#programminglanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#java8 -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#java8">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#jdk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#javascript -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#javascript">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#programminglanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#jclouds -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#jclouds">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#microservices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#jdk -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#jdk">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#jena -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#jena">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#libraries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#json -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#json">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#libraries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#jsoup -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#jsoup">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#libraries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#lambdas -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#lambdas">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#libraries -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#libraries">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#log4j -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#log4j">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#libraries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#maven -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#maven">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#microservices -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#microservices">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#netbeans -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#netbeans">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#ide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#networking -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#networking">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#programminglanguages -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#programminglanguages">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#IT_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#python -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#python">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#programminglanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#rest -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#rest">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#api"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#ruby -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#ruby">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#programminglanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#soap -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#soap">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#api"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#spring -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#spring">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#springboot -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#springboot">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#springcloud -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#springcloud">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#microservices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#springcore -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#springcore">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#spring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#streamapi -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#streamapi">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#testing -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#testing">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#tools -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#tools">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#java"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#unittesting -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#unittesting">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#testing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#web2py -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#web2py">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cis.com/technology-ontology#.net -->
+
+    <owl:Class rdf:about="http://cis.com/technology-ontology#.net">
+        <rdfs:subClassOf rdf:resource="http://cis.com/technology-ontology#programminglanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Bottle"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#CherryPy"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Django"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Falcon"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Flask"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Tornado"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#web2py"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Concurrency_Patterns"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Thread_Pool"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Threads"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#File_IO"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Networking_IO"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Socket_Programming"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#List"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Map"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#Set"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#SortedMap"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#bigdata"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#cloudcomputing"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#database"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#devops"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#frontend"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#networking"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#programminglanguages"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#collections"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#concurrency"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#io"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#java8"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#datetimeapi"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#functionalprogramming"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#lambdas"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#streamapi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#eclipse"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#intellij"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#netbeans"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#gradle"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#ide"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#maven"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#hibernate"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#microservices"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#spring"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#springboot"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#java"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#javascript"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#python"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#ruby"/>
+            <rdf:Description rdf:about="http://cis.com/technology-ontology#.net"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
